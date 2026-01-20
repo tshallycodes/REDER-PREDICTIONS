@@ -1,3 +1,4 @@
 .env
 venv
 data.csv
+cleaned_data.csv
