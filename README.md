@@ -65,23 +65,27 @@ The dataset is customer-level, time-stamped, and multi-source.
 - Saved trained models and feature metadata
 
 ## Project Structure
-├── metrics/
-│ ├── dt.png
-│ └── lr.png
-├── model/
-│ ├── logreg_model.pkl
-│ ├── model.pkl # Decision Tree Model
-│ ├── model.json # Feature names
-│ └── model.ipynb
-├── preprocessing/
-│ ├──  clean_data.ipynb
-│ ├──  data.csv # gitignored
-│ └── cleaned_data.csv # gitignored
-├── venv/
-├── .env
-├── requirements.txt
-└── README.md
+## Project Structure<br>
+.<br>
+├── **metrics/**<br>
+│   ├── dt.png<br>
+│   └── lr.png<br>
+├── **model/**<br>
+│   ├── logreg_model.pkl<br>
+│   ├── model.pkl # Decision Tree Model<br>
+│   ├── model.json # Feature names<br>
+│   └── model.ipynb<br>
+├── **preprocessing/**<br>
+│   ├── clean_data.ipynb<br>
+│   ├── data.csv # gitignored<br>
+│   └── cleaned_data.csv # gitignored<br>
+├── **venv/**<br>
+├── **.env**<br>
+├── **requirements.txt**<br>
+└── **README.md**<br>
+
 
 ## Notes
 - Raw and cleaned datasets are excluded via `.gitignore`
 - This project focuses on **practical churn prediction**, not academic fluff
+
